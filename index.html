@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Chris Skinner | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/emojihand.png">
   </head>
   <body>
     <nav id="desktop-nav">
@@ -300,20 +301,16 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/fp.png"
-                alt="Project 1"
-                class="project-img flickpix"
-              />
+              <video width="320" height="240" controls muted autoplay loop>
+                <source src="./assets/fp-movies.mp4" type="video/mp4">
+              </video>
             </div>
             <h2 class="experience-sub-title project-title">FlickPix</h2>
             <div class="project-about">
-              <p>This event scheduling application empowers users to effortlessly create, schedule,
-                and register for technology conferences. The project was developed using a microservices architecture,
-                enabling the front-end to seamlessly display data retrieved from the back-end system through the integration of APIs.
+              <p> FlickPix is a platform for movie and TV show recommendations. Users can save their favorite films and track what they've watched. Built with FastAPI, PostgreSQL, and React, it also integrates third-party API data seamlessly.
               </p>
               <h4>Tech Stack</h4>
-              <p>Django, React, Docker, API Integration</p>
+              <p>FastAPI, React, Docker, PostgreSQL</p>
           </div>
             <div class="btn-container">
               <button
@@ -334,12 +331,14 @@
             </div>
             <h2 class="experience-sub-title project-title">CarCar</h2>
             <div class="project-about">
-              <p>This event scheduling application empowers users to effortlessly create, schedule,
-                and register for technology conferences. The project was developed using a microservices architecture,
-                enabling the front-end to seamlessly display data retrieved from the back-end system through the integration of APIs.
+              <p> CarCar is a comprehensive system for managing automobile inventory
+                and customer relationships at dealerships. It enables sales tracking,
+                customer data management, and appointment scheduling for vehicle
+                servicing. This application employs a microservice architecture,
+                featuring a Django backend and a React frontend.
               </p>
               <h4>Tech Stack</h4>
-              <p>Django, React, Docker, API Integration</p>
+              <p>Django, React, Docker</p>
           </div>
             <div class="btn-container">
               <button
